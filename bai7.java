@@ -84,30 +84,6 @@ public class bai7 {
     }
     void sapxep()
     {
-//        List<Double> sxep = new ArrayList<>();
-//        List<Double> check = new ArrayList<>();
-//        check.add(0.0001);
-//        for (student sv :qlyssinhvien)
-//            sxep.add(sv.getDiemtb());
-//        for (double ss : sxep)
-//        {
-//            double temp =0;
-//            for (double so : sxep)
-//                if (so>=temp )
-//                {
-//                    for (double so1 : check)
-//                    {
-//                        if (so==so1) break;
-//                        else temp = so;
-//                    }
-//
-//                }
-//            for (student sv :qlyssinhvien)
-//            {
-//                if (temp==sv.getDiemtb()) sv.indanhsach();
-//            }
-//            check.add(0,temp);
-//        }???????????????????????????????????????
         Collections.sort(qlyssinhvien, new Comparator<student>() {
             @Override
             public int compare(student o1, student o2) {
